@@ -1,7 +1,7 @@
 import Foundation
 import SwiftyJSON
 
-public class User: NSObject, NSCoding {
+open class User: NSObject, NSCoding {
     
     public var name: String?
     public var email: String?
